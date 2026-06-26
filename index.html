@@ -274,11 +274,10 @@
         .rm-n1 { left: 30%; top: 32%; }
         .rm-n2 { left: 56%; top: 32%; }
         .rm-n3 { left: 82%; top: 32%; }
-        .rm-n4 { left: 63%; top: 68%; }
+        .rm-n4 { left: 56%; top: 68%; }
         .rm-n5 { left: 8%;  top: 68%; }
         .rm-n6 { left: 30%; top: 68%; }
         .rm-n7 { left: 82%; top: 68%; }
-        .rm-n8 { left: 46%; top: 68%; }
         /* Shared badge */
         .jbadge {
             font-size: 0.6rem; font-weight: 700; letter-spacing: 0.07em;
@@ -992,19 +991,19 @@
                     </div>
                 </div>
 
-                <!-- N4: Product Manager (64%, 68%) — below -->
+                <!-- N4: 73 Strings PM → PM II (56%, 68%) — below -->
                 <div class="rm-node rm-n4 rm-below" data-i="5">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
-                        <div class="rm-year">2022 – 2024</div>
+                        <div class="rm-year">2022 – 2026</div>
                         <div class="rm-ico">📈</div>
-                        <div class="rm-title">Product Manager</div>
-                        <div class="rm-sub">73 Strings · 80% adoption · CSAT +20%</div>
+                        <div class="rm-title">PM → PM II, 73 Strings</div>
+                        <div class="rm-sub">₹40Cr+ revenue · 80% adoption · AI Hackathon</div>
                     </div>
                 </div>
 
-                <!-- N8: Co-Founder (46%, 68%) — below -->
-                <div class="rm-node rm-n8 rm-below" data-i="6">
+                <!-- N6: Co-Founder (30%, 68%) — below -->
+                <div class="rm-node rm-n6 rm-below" data-i="6">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
                         <div class="rm-year">2024 to 2026</div>
@@ -1014,19 +1013,8 @@
                     </div>
                 </div>
 
-                <!-- N6: PM II (30%, 68%) — below -->
-                <div class="rm-node rm-n6 rm-below" data-i="7">
-                    <div class="rm-dot done"></div>
-                    <div class="rm-card">
-                        <div class="rm-year">2024 – 2026</div>
-                        <div class="rm-ico">🚀</div>
-                        <div class="rm-title">Product Manager II</div>
-                        <div class="rm-sub">73 Strings · ₹40Cr+ revenue · AI Hackathon</div>
-                    </div>
-                </div>
-
                 <!-- N5: Kelp Global (8%, 68%) — below, current -->
-                <div class="rm-node rm-n5 rm-below" data-i="8">
+                <div class="rm-node rm-n5 rm-below" data-i="7">
                     <div class="rm-dot current"></div>
                     <div class="rm-card">
                         <div class="rm-year">2026 to Present</div>
@@ -1540,8 +1528,8 @@
         // Row1: N0,N1,N2,N3 → Row2 (enters from right): N4,N5,N6
         // Timings for 8s LINEAR draw — mirrored spacing top/bottom
         // Top: 3%,14%,27%,40% | Bottom R→L: PA@61%,PM@74%,Co-F@87%,PM-II@98%
-        const dotTimings  = [250, 1100, 2150, 3200, 4900, 5600, 6400, 7100, 7750];
-        const cardTimings = [500, 1350, 2400, 3450, 5150, 5850, 6650, 7350, 8000];
+        const dotTimings  = [250, 1100, 2150, 3200, 4900, 5900, 7000, 7800];
+        const cardTimings = [500, 1350, 2400, 3450, 5150, 6150, 7250, 8050];
         const rmObs = new IntersectionObserver(entries => {
             entries.forEach(e => {
                 if (e.isIntersecting && !fired) {
