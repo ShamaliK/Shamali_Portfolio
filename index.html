@@ -258,7 +258,7 @@
         .rm-node:hover .rm-dot.current.pop { box-shadow: 0 0 0 6px rgba(34,197,94,0.2); }
         .rm-node:hover .rm-dot.hold.pop { box-shadow: 0 0 0 6px rgba(245,158,11,0.15); }
         .rm-card {
-            position: absolute; width: 180px; text-align: center;
+            position: absolute; width: 130px; text-align: center;
             left: 50%; transform: translateX(-50%);
             opacity: 0; transition: opacity 0.6s ease;
         }
@@ -267,17 +267,18 @@
         .rm-below .rm-card { top: calc(100% + 18px); }
         .rm-year { font-size: 0.68rem; font-weight: 600; color: var(--dk-subtle); letter-spacing: 0.04em; margin-bottom: 0.25rem; }
         .rm-ico { font-size: 1.4rem; line-height: 1; margin-bottom: 0.3rem; }
-        .rm-title { font-size: 0.88rem; font-weight: 700; color: var(--dk-text); line-height: 1.3; margin-bottom: 0.25rem; white-space: nowrap; }
-        .rm-sub { font-size: 0.72rem; color: var(--dk-muted); line-height: 1.4; margin-bottom: 0; white-space: nowrap; }
+        .rm-title { font-size: 0.82rem; font-weight: 700; color: var(--dk-text); line-height: 1.3; margin-bottom: 0.25rem; white-space: normal; }
+        .rm-sub { font-size: 0.68rem; color: var(--dk-muted); line-height: 1.4; margin-bottom: 0; white-space: normal; }
         /* Node positions — SVG viewBox 1000 x 440, path rows at y=140 (32%) and y=300 (68%) */
         .rm-n0 { left: 8%;  top: 32%; }
         .rm-n1 { left: 30%; top: 32%; }
         .rm-n2 { left: 56%; top: 32%; }
         .rm-n3 { left: 82%; top: 32%; }
-        .rm-n4 { left: 56%; top: 68%; }
+        .rm-n4 { left: 64%; top: 68%; }
         .rm-n5 { left: 8%;  top: 68%; }
-        .rm-n6 { left: 30%; top: 68%; }
+        .rm-n6 { left: 27%; top: 68%; }
         .rm-n7 { left: 82%; top: 68%; }
+        .rm-n8 { left: 45%; top: 68%; }
         /* Shared badge */
         .jbadge {
             font-size: 0.6rem; font-weight: 700; letter-spacing: 0.07em;
@@ -991,19 +992,19 @@
                     </div>
                 </div>
 
-                <!-- N4: 73 Strings PM → PM II (56%, 68%) — below -->
+                <!-- N4: Product Manager (64%, 68%) — below -->
                 <div class="rm-node rm-n4 rm-below" data-i="5">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
-                        <div class="rm-year">2022 – 2026</div>
+                        <div class="rm-year">2022 – 2024</div>
                         <div class="rm-ico">📈</div>
-                        <div class="rm-title">PM → PM II, 73 Strings</div>
-                        <div class="rm-sub">₹40Cr+ revenue · 80% adoption · AI Hackathon</div>
+                        <div class="rm-title">Product Manager</div>
+                        <div class="rm-sub">73 Strings · 80% adoption · CSAT +20%</div>
                     </div>
                 </div>
 
-                <!-- N6: Co-Founder (30%, 68%) — below -->
-                <div class="rm-node rm-n6 rm-below" data-i="6">
+                <!-- N8: Co-Founder (45%, 68%) — below -->
+                <div class="rm-node rm-n8 rm-below" data-i="6">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
                         <div class="rm-year">2024 to 2026</div>
@@ -1013,8 +1014,19 @@
                     </div>
                 </div>
 
+                <!-- N6: PM II (27%, 68%) — below -->
+                <div class="rm-node rm-n6 rm-below" data-i="7">
+                    <div class="rm-dot done"></div>
+                    <div class="rm-card">
+                        <div class="rm-year">2024 – 2026</div>
+                        <div class="rm-ico">🚀</div>
+                        <div class="rm-title">Product Manager II</div>
+                        <div class="rm-sub">73 Strings · ₹40Cr+ revenue · AI Hackathon</div>
+                    </div>
+                </div>
+
                 <!-- N5: Kelp Global (8%, 68%) — below, current -->
-                <div class="rm-node rm-n5 rm-below" data-i="7">
+                <div class="rm-node rm-n5 rm-below" data-i="8">
                     <div class="rm-dot current"></div>
                     <div class="rm-card">
                         <div class="rm-year">2026 to Present</div>
@@ -1528,8 +1540,8 @@
         // Row1: N0,N1,N2,N3 → Row2 (enters from right): N4,N5,N6
         // Timings for 8s LINEAR draw — mirrored spacing top/bottom
         // Top: 3%,14%,27%,40% | Bottom R→L: PA@61%,PM@74%,Co-F@87%,PM-II@98%
-        const dotTimings  = [250, 1100, 2150, 3200, 4900, 5900, 7000, 7800];
-        const cardTimings = [500, 1350, 2400, 3450, 5150, 6150, 7250, 8050];
+        const dotTimings  = [250, 1100, 2150, 3200, 4900, 5700, 6400, 7100, 7750];
+        const cardTimings = [500, 1350, 2400, 3450, 5150, 5950, 6650, 7350, 8000];
         const rmObs = new IntersectionObserver(entries => {
             entries.forEach(e => {
                 if (e.isIntersecting && !fired) {
