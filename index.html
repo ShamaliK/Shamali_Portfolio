@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shamali Kather · Product Manager</title>
+    <meta name="description" content="Product Manager with 5+ years in B2B SaaS and AI for enterprise fintech. Rebuilt a failing product into $4.8M+ ARR in one year. Now leading a three-product PE intelligence portfolio at Kelp Global.">
+    <meta property="og:title" content="Shamali Kather · Product Manager">
+    <meta property="og:description" content="Product Manager with 5+ years in B2B SaaS and AI for enterprise fintech. Rebuilt a failing product into $4.8M+ ARR in one year. Now leading a three-product PE intelligence portfolio at Kelp Global.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shamalikather.com/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Literata:ital,opsz,wght@1,7..72,800&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -51,7 +56,7 @@
         .ds .hero-desc { color: var(--dk-muted); }
         .ds .hero-desc strong { color: var(--dk-text); }
         .ds .hero-stat-val { color: var(--dk-text); }
-        .ds .hero-stat-lbl { color: var(--dk-subtle); }
+        .ds .hero-stat-lbl { color: var(--dk-muted); }
         .ds .stat-rule { background: var(--dk-border); }
         .ds .btn-ghost { color: var(--dk-text); border-color: var(--dk-border-h); }
         .ds .btn-ghost:hover { color: var(--accent); border-color: var(--accent); }
@@ -151,11 +156,11 @@
             font-weight: 800; line-height: 0.92; letter-spacing: -0.03em;
             margin-bottom: 1.25rem; color: var(--text);
         }
-        .hero-name em { font-style: normal; color: var(--accent); }
+        .hero-name em { font-family: 'Literata', Georgia, serif; font-style: italic; font-weight: 800; letter-spacing: -0.03em; color: var(--accent); }
 
         .hero-desc {
             font-size: clamp(0.875rem, 1.5vw, 1rem);
-            color: var(--muted); max-width: 540px;
+            color: var(--muted); max-width: 600px;
             margin-bottom: 1.75rem; font-weight: 400; line-height: 1.7;
         }
         .hero-desc strong { color: var(--text); font-weight: 600; }
@@ -192,7 +197,8 @@
         }
         .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 
-        .hero-stats { display: flex; gap: 2.5rem; flex-wrap: wrap; align-items: center; }
+        .hero-stats { display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; }
+        .hero-stats > div:not(.stat-rule) { max-width: 190px; }
         .hero-stat-val {
             font-size: 1.75rem; font-weight: 800; color: var(--text); line-height: 1;
             display: block;
@@ -798,6 +804,10 @@
             .hero-tag { font-size: 0.58rem; letter-spacing: 0.07em; white-space: nowrap; }
             .hero-tag::before { width: 18px; }
         }
+    
+        /* ── REFINEMENTS ── */
+        .heading em { font-family: 'Literata', Georgia, serif; font-style: italic; font-weight: 800; letter-spacing: -0.02em; }
+        .hero-stat-lbl { line-height: 1.45; }
     </style>
 </head>
 <body>
@@ -811,7 +821,7 @@
         <li><a href="#journey">Journey</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#freelance">Freelance</a></li>
+        <li><a href="#freelance">Ventures</a></li>
         <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
     </ul>
     <button class="nav-toggle" onclick="document.getElementById('navlinks').classList.toggle('open')" aria-label="Menu">
@@ -824,10 +834,10 @@
     <div class="hero-glow"></div>
     <div class="hero-inner">
         <div class="hero-status"><span class="status-dot"></span>Currently shipping at Kelp Global</div>
-        <div class="hero-tag">Product Manager &middot; B2B SaaS &middot; AI &middot; Fintech &middot; UI/UX &middot; Data</div>
+        <div class="hero-tag">Product Manager &middot; AI &middot; B2B SaaS &middot; Fintech &middot; UI/UX</div>
         <h1 class="hero-name">Shamali<br><em>Kather</em></h1>
         <p class="hero-desc">
-            Give me a problem, a team, and a deadline. I'll give you a shipped product. I make the tough calls, lead the design conversations, manage teams, and ship things that actually move the needle. The kind of PM who believes that businesses can be complex but your workflows shouldn't be. Previously scaling AI-powered platforms for the world's largest alternative asset managers. Now driving product portfolio ownership at Kelp Global, an AI-powered private equity intelligence platform.
+            Businesses can be complex. Workflows shouldn't be. I'm a product manager with 5+ years in B2B SaaS and AI for enterprise fintech, and a UI/UX design background that shapes every call I make. I turn struggling products around. I rebuilt a failing platform into <strong>$4.8M+ ARR in one year</strong>, was part of 73 Strings' climb from pre-revenue to a <strong>$55M+ Series B</strong>, and now lead a three-product PE intelligence portfolio at Kelp Global.
         </p>
         <div class="hero-actions">
             <a href="/Shamali_Kather_PM_Resume.pdf" class="btn-fill" target="_blank" rel="noopener">View Resume <span style="transform:translateY(1px);display:inline-block;">&rarr;</span></a>
@@ -840,17 +850,17 @@
             <div class="stat-rule"></div>
             <div>
                 <span class="hero-stat-val">₹40Cr+</span>
-                <span class="hero-stat-lbl">Revenue delivered this year of launch</span>
+                <span class="hero-stat-lbl">Revenue in year one, 4&times; forecast</span>
             </div>
             <div class="stat-rule"></div>
             <div>
                 <span class="hero-stat-val">₹1Cr</span>
-                <span class="hero-stat-lbl">Turnover in year one as Co-Founder</span>
+                <span class="hero-stat-lbl">Turnover in year one as co-founder</span>
             </div>
             <div class="stat-rule"></div>
             <div>
-                <span class="hero-stat-val">&#8734;</span>
-                <span class="hero-stat-lbl">Tokens burned on Claude (worth it)</span>
+                <span class="hero-stat-val">18</span>
+                <span class="hero-stat-lbl">Person team led across 3 products</span>
             </div>
         </div>
     </div>
@@ -864,8 +874,8 @@
                 <div class="eyebrow">About Me</div>
                 <h2 class="heading">PM who builds<br>with <em>conviction</em></h2>
                 <div class="about-body">
-                    <p>Ask my team to describe me and they'll say: empathetic, always has the answer, and the person you go to when nothing is working. I have led both <strong>product and design teams</strong>, owned the vision, made the UX calls, and stayed accountable through every sprint. I care as much about the people building the product as I do about the product itself.</p>
-                    <p>Five years. Built my way to PM II. I've shipped AI platforms, redesigned enterprise products, and taken new product lines from zero to market. The products I've built have moved real numbers, including one that crossed <strong>₹40Cr+ in revenue this year</strong>. The proof is in what shipped.</p>
+                    <p>Ask my team to describe me and they'll say: empathetic, always has the answer, and the person you go to when nothing is working. I've led <strong>product and design teams</strong>, owned the vision, made the UX calls, and stayed accountable through every sprint. I care as much about the people building the product as I do about the product itself.</p>
+                    <p>I started as an architect, trained in design management, and grew from Product Associate to PM II at 73 Strings while it climbed from pre-revenue to a $55M+ Series B. Along the way I took a product line from zero to 80% adoption, rebuilt a failing platform into <strong>₹40Cr+ (~$4.8M ARR) in one year</strong>, led a team of 18 across three products, and hired and mentored four Associate PMs.</p>
                     <p>Oh, and I used to teach calligraphy. Turns out caring obsessively about how things look and feel isn't just a hobby. It's a personality trait.</p>
                 </div>
             </div>
@@ -943,7 +953,7 @@
                         <div class="rm-year">2013 – 2018</div>
                         <div class="rm-ico">🎓</div>
                         <div class="rm-title">B.Arch</div>
-                        <div class="rm-sub">Pune University · Top 10 · Excellence Award</div>
+                        <div class="rm-sub">Minerva College of Architecture, Pune · First Class with Distinction</div>
                     </div>
                     <div class="rm-dot done"></div>
                 </div>
@@ -954,7 +964,7 @@
                         <div class="rm-year">2018 – 2019</div>
                         <div class="rm-ico">🏛️</div>
                         <div class="rm-title">Architect</div>
-                        <div class="rm-sub">Girish Joshi &amp; Associates, Mumbai</div>
+                        <div class="rm-sub">Girish Joshi &amp; Associates, Mumbai · 12 projects</div>
                     </div>
                     <div class="rm-dot done"></div>
                 </div>
@@ -965,7 +975,7 @@
                         <div class="rm-year">2019 – 2021</div>
                         <div class="rm-ico">📋</div>
                         <div class="rm-title">M.Des Design Management</div>
-                        <div class="rm-sub">MIT Institute of Design, Pune · First Class</div>
+                        <div class="rm-sub">MIT Institute of Design, Pune · First Class with Distinction</div>
                     </div>
                     <div class="rm-dot done"></div>
                 </div>
@@ -985,10 +995,10 @@
                 <div class="rm-node rm-n7 rm-below" data-i="4">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
-                        <div class="rm-year">2021 – 2022</div>
+                        <div class="rm-year">2021 – 2023</div>
                         <div class="rm-ico">💼</div>
                         <div class="rm-title">Product Associate</div>
-                        <div class="rm-sub">73 Strings, Bengaluru</div>
+                        <div class="rm-sub">73 Strings · 0→1 product line · 80% adoption</div>
                     </div>
                 </div>
 
@@ -996,18 +1006,18 @@
                 <div class="rm-node rm-n4 rm-below" data-i="5">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
-                        <div class="rm-year">2022 – 2024</div>
+                        <div class="rm-year">2023 – 2024</div>
                         <div class="rm-ico">📈</div>
                         <div class="rm-title">Product Manager</div>
-                        <div class="rm-sub">73 Strings · 80% adoption · CSAT +20%</div>
+                        <div class="rm-sub">73 Strings · CSAT +20% · 75% fewer bugs</div>
                     </div>
                 </div>
 
                 <!-- N8: Co-Founder (45%, 68%) — below -->
-                <div class="rm-node rm-n8 rm-below" data-i="6">
+                <div class="rm-node rm-n6 rm-below" data-i="7">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
-                        <div class="rm-year">2024 to 2026</div>
+                        <div class="rm-year">2024 – 2026</div>
                         <div class="rm-ico">🏢</div>
                         <div class="rm-title">Co-Founder, The Spacesmith</div>
                         <div class="rm-sub">Pune · ₹1Cr turnover year one</div>
@@ -1015,13 +1025,13 @@
                 </div>
 
                 <!-- N6: PM II (27%, 68%) — below -->
-                <div class="rm-node rm-n6 rm-below" data-i="7">
+                <div class="rm-node rm-n8 rm-below" data-i="6">
                     <div class="rm-dot done"></div>
                     <div class="rm-card">
                         <div class="rm-year">2024 – 2026</div>
                         <div class="rm-ico">🚀</div>
                         <div class="rm-title">Product Manager II</div>
-                        <div class="rm-sub">73 Strings · ₹40Cr+ revenue · AI Hackathon</div>
+                        <div class="rm-sub">73 Strings · ~$4.8M ARR · team of 18</div>
                     </div>
                 </div>
 
@@ -1029,10 +1039,10 @@
                 <div class="rm-node rm-n5 rm-below" data-i="8">
                     <div class="rm-dot current"></div>
                     <div class="rm-card">
-                        <div class="rm-year">2026 to Present</div>
+                        <div class="rm-year">2026 – Present</div>
                         <div class="rm-ico">⚡</div>
                         <div class="rm-title">Product Manager, Excellence</div>
-                        <div class="rm-sub">Kelp Global · Mumbai · PE Intelligence</div>
+                        <div class="rm-sub">Kelp Global · Mumbai · 3-product PE portfolio</div>
                     </div>
                 </div>
 
@@ -1041,15 +1051,15 @@
 
         <!-- MOBILE fallback: simple stacked timeline -->
         <div class="rm-mobile">
-            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">2013 – 2018</div><div class="rm-mob-title">🎓 B.Arch, Pune University</div><div class="rm-mob-sub">Top 10 · Academic Excellence Award</div></div></div>
-            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">2018 – 2019</div><div class="rm-mob-title">🏛️ Architect, Girish Joshi &amp; Associates</div><div class="rm-mob-sub">Mumbai · 12+ construction projects</div></div></div>
+            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">2013 – 2018</div><div class="rm-mob-title">🎓 B.Arch, Minerva College of Architecture</div><div class="rm-mob-sub">Pune · First Class with Distinction</div></div></div>
+            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">2018 – 2019</div><div class="rm-mob-title">🏛️ Architect, Girish Joshi &amp; Associates</div><div class="rm-mob-sub">Mumbai · 12 construction projects</div></div></div>
             <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">2019 – 2021</div><div class="rm-mob-title">📋 M.Des Design Management</div><div class="rm-mob-sub">MIT Institute of Design, Pune · First Class with Distinction</div></div></div>
             <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Jan – Jun 2021</div><div class="rm-mob-title">💻 PM Intern, 73 Strings</div><div class="rm-mob-sub">Bengaluru</div></div></div>
-            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Jun 2021 – May 2023</div><div class="rm-mob-title">💼 Product Associate, 73 Strings</div><div class="rm-mob-sub">80% client adoption · UI component library</div></div></div>
+            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Jun 2021 – May 2023</div><div class="rm-mob-title">💼 Product Associate, 73 Strings</div><div class="rm-mob-sub">0→1 product line · 80% client adoption</div></div></div>
             <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">May 2023 – Jan 2024</div><div class="rm-mob-title">📈 Product Manager, 73 Strings</div><div class="rm-mob-sub">CSAT +20% · 75% fewer bugs</div></div></div>
-            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Jan 2024 to May 2026</div><div class="rm-mob-title">🚀 Product Manager II, 73 Strings</div><div class="rm-mob-sub">₹40Cr+ revenue · AI Hackathon 2026</div></div></div>
-            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Sep 2024 to Mar 2026</div><div class="rm-mob-title">🏢 Co-Founder, The Spacesmith</div><div class="rm-mob-sub">Pune · ₹1Cr turnover year one</div></div></div>
-            <div class="rm-mob-item"><div class="rm-mob-dot current"></div><div class="rm-mob-body"><div class="rm-mob-year">May 2026 to Present</div><div class="rm-mob-title">⚡ Product Manager, Kelp Global</div><div class="rm-mob-sub">Mumbai · AI-powered PE intelligence</div></div></div>
+            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Jan 2024 – May 2026</div><div class="rm-mob-title">🚀 Product Manager II, 73 Strings</div><div class="rm-mob-sub">~$4.8M ARR · team of 18</div></div></div>
+            <div class="rm-mob-item"><div class="rm-mob-dot done"></div><div class="rm-mob-body"><div class="rm-mob-year">Sep 2024 – Mar 2026</div><div class="rm-mob-title">🏢 Co-Founder, The Spacesmith</div><div class="rm-mob-sub">Pune · ₹1Cr turnover year one</div></div></div>
+            <div class="rm-mob-item"><div class="rm-mob-dot current"></div><div class="rm-mob-body"><div class="rm-mob-year">May 2026 – Present</div><div class="rm-mob-title">⚡ Product Manager, Kelp Global</div><div class="rm-mob-sub">Mumbai · 3-product PE portfolio</div></div></div>
         </div>
 
     </div>
@@ -1065,19 +1075,35 @@
         <div class="impact-grid">
             <div class="icard reveal">
                 <span class="inum" data-target="40" data-suffix="Cr+" data-prefix="₹">₹0</span>
-                <span class="ilbl">Revenue delivered this year of launch</span>
+                <span class="ilbl">Revenue in one year, 4&times; the ₹10Cr forecast</span>
             </div>
             <div class="icard reveal">
                 <span class="inum" data-target="90" data-suffix="%">0%</span>
-                <span class="ilbl">Accuracy achieved by AI-powered raw data extraction system</span>
+                <span class="ilbl">Accuracy of the AI data extraction system</span>
             </div>
             <div class="icard reveal">
                 <span class="inum" data-target="60" data-suffix="%">0%</span>
-                <span class="ilbl">Reduction in analyst processing time for enterprise clients</span>
+                <span class="ilbl">Less analyst processing time</span>
+            </div>
+            <div class="icard reveal">
+                <span class="inum" data-target="45" data-suffix="%">0%</span>
+                <span class="ilbl">Fewer support queries after the AI chatbot rollout</span>
+            </div>
+            <div class="icard reveal">
+                <span class="inum" data-target="80" data-suffix="%">0%</span>
+                <span class="ilbl">Client adoption of a 0&rarr;1 product line in year one</span>
+            </div>
+            <div class="icard reveal">
+                <span class="inum" data-target="75" data-suffix="%">0%</span>
+                <span class="ilbl">Fewer production bugs after PRD and UAT practices</span>
             </div>
             <div class="icard reveal">
                 <span class="inum" data-target="20" data-suffix="%">0%</span>
-                <span class="ilbl">CSAT improvement through research-driven UI/UX modernization</span>
+                <span class="ilbl">CSAT lift from a research-led UI/UX overhaul</span>
+            </div>
+            <div class="icard reveal">
+                <span class="inum" data-target="30" data-suffix="%">0%</span>
+                <span class="ilbl">Faster deliverables at Kelp Global</span>
             </div>
         </div>
     </div>
@@ -1099,15 +1125,15 @@
                     <div class="wbody">
                         <div class="wtags"><span class="wtag">0&rarr;1</span><span class="wtag">Portfolio Monitoring</span><span class="wtag">Product Strategy</span><span class="wtag">Fintech</span><span class="wtag">Alternative Assets</span></div>
                         <h3 class="wtitle">73 Monitor: Built a New Product Line from Scratch</h3>
-                        <p class="wdesc">Led end-to-end creation of 73 Monitor, a portfolio monitoring platform for alternative asset managers. Took it from blank page to market launch across research, design, development, and GTM. Became the company's highest-adopted product.</p>
+                        <p class="wdesc">Led end-to-end creation of 73 Monitor, a portfolio monitoring platform for alternative asset managers. Took it from scratch to market across strategy, research, PRDs, design, and GTM, reaching 80% client adoption in year one.</p>
                     </div>
-                    <div class="wmetric"><div class="wmetric-val">80%</div><div class="wmetric-lbl">Market adoption, highest in the portfolio</div></div>
+                    <div class="wmetric"><div class="wmetric-val">80%</div><div class="wmetric-lbl">Client adoption in year one</div></div>
                     <div class="wico">+</div>
                 </div>
                 <div class="wdetails"><div class="wdetails-inner">
                     <div class="dblock"><h4>The Problem</h4><p>Investment firms needed a single source of truth for their portfolio: somewhere to store data on every company they'd invested in, track performance, and make hold/exit decisions. No product, no research, no process. Just a clear market gap.</p></div>
                     <div class="dblock"><h4>What I Did</h4><p>Ran discovery from zero: user interviews with investment professionals, workflow mapping, product vision. Wrote all PRDs, user stories, and acceptance criteria. Collaborated on UI/UX and worked with engineering through every sprint. Coordinated GTM and launch with marketing and commercial teams.</p></div>
-                    <div class="dblock"><h4>Impact</h4><p>80% market adoption from first release, the highest of any product in the 73 Strings portfolio. Became the best-selling product, serving as the data backbone for investment decisions at some of the world's largest alternative asset managers.</p></div>
+                    <div class="dblock"><h4>Impact</h4><p>80% client adoption in year one. The platform became the data backbone for portfolio decisions at alternative asset managers representing ~$10T in client AUM.</p></div>
                     <div class="dblock dblock-full"><div class="dmodule-header"><h4>What We Built</h4><span class="dmod-count">9 Modules</span></div><ul class="dlist">
                         <li><strong>Attribute Management</strong><span>Define &amp; store data attributes per investment firm</span></li>
                         <li><strong>Template Management</strong><span>Group attributes into reusable data collection templates</span></li>
@@ -1127,17 +1153,17 @@
                 <div class="witem-head">
                     <div class="wnum">02</div>
                     <div class="wbody">
-                        <div class="wtags"><span class="wtag">0&rarr;1</span><span class="wtag">Enterprise B2B</span><span class="wtag">Build vs Buy</span><span class="wtag">GTM</span><span class="wtag">Alternative Assets</span></div>
-                        <h3 class="wtitle">Enterprise Data Collection Platform</h3>
-                        <p class="wdesc">Defined strategy and led end-to-end delivery for alternative asset managers, from blank page to launch. Projected to generate ~₹10Cr ($1.2M+ ARR) this year of launch. Ended up delivering ₹40Cr+ (~$4.8M+).</p>
+                        <div class="wtags"><span class="wtag">Turnaround</span><span class="wtag">Enterprise B2B</span><span class="wtag">Build vs Buy</span><span class="wtag">GTM</span><span class="wtag">Alternative Assets</span></div>
+                        <h3 class="wtitle">Enterprise Data Collection Platform: From Failing to $4.8M ARR</h3>
+                        <p class="wdesc">Rebuilt a failing data collection platform for alternative asset managers end to end: strategy, scope, build vs. buy, and GTM. Forecast at ₹10Cr for the year, it delivered ₹40Cr+ (~$4.8M ARR), 4&times; the plan.</p>
                     </div>
-                    <div class="wmetric"><div class="wmetric-val">₹40Cr+</div><div class="wmetric-lbl">Revenue delivered this year of launch</div></div>
+                    <div class="wmetric"><div class="wmetric-val">₹40Cr+</div><div class="wmetric-lbl">Revenue in one year, 4&times; forecast</div></div>
                     <div class="wico">+</div>
                 </div>
                 <div class="wdetails"><div class="wdetails-inner">
-                    <div class="dblock"><h4>The Problem</h4><p>Asset managers lacked a structured, compliant way to collect portfolio data at scale, relying on fragmented manual processes that created errors, delays, and audit risk.</p></div>
-                    <div class="dblock"><h4>What I Did</h4><p>Led discovery, defined the roadmap, made key build vs. buy trade-offs, aligned engineering and design on scope, and coordinated GTM with the commercial team. Served as Product Owner across all sprints from concept to launch.</p></div>
-                    <div class="dblock"><h4>Impact</h4><p>The platform was originally projected to generate ~₹10Cr ($1.2M+ ARR) this year of launch. It delivered ₹40Cr+ (~$4.8M+), roughly 4× the initial forecast. A strong signal of product-market fit and execution quality.</p></div>
+                    <div class="dblock"><h4>The Problem</h4><p>The platform was underperforming. Asset managers still lacked a structured, compliant way to collect portfolio data at scale and fell back on fragmented manual processes that created errors, delays, and audit risk.</p></div>
+                    <div class="dblock"><h4>What I Did</h4><p>Reset the strategy and scope, led discovery, made the key build vs. buy trade-offs, aligned engineering and design on what to ship first, and coordinated GTM with the commercial team. Served as Product Owner across every sprint of the rebuild.</p></div>
+                    <div class="dblock"><h4>Impact</h4><p>Forecast at ₹10Cr for the year, the rebuilt platform delivered ₹40Cr+ (~$4.8M ARR), 4× the plan. A clear signal of product-market fit and execution quality.</p></div>
                 </div></div>
             </div>
 
@@ -1148,15 +1174,15 @@
                     <div class="wbody">
                         <div class="wtags"><span class="wtag">AI/ML</span><span class="wtag">Automation</span><span class="wtag">Product Discovery</span><span class="wtag">Prompt Engineering</span><span class="wtag">Workflow Design</span></div>
                         <h3 class="wtitle">AI Raw Data Extraction &amp; Intelligent Review System</h3>
-                        <p class="wdesc">Identified a critical pain point in manual data processing, ran discovery, and scoped an AI extraction engine + intelligent review assistant that replaced hours of analyst work.</p>
+                        <p class="wdesc">Fixed a manual data processing bottleneck by shipping an AI system that turns unstructured documents into clean, structured data, paired with an intelligent review assistant for analysts.</p>
                     </div>
-                    <div class="wmetric"><div class="wmetric-val">60%</div><div class="wmetric-lbl">Reduction in processing time · 90% AI accuracy</div></div>
+                    <div class="wmetric"><div class="wmetric-val">60%</div><div class="wmetric-lbl">Less analyst processing time · 90% accuracy</div></div>
                     <div class="wico">+</div>
                 </div>
                 <div class="wdetails"><div class="wdetails-inner">
                     <div class="dblock"><h4>The Problem</h4><p>Analysts were spending hours manually extracting and validating data from unstructured sources: slow, error-prone, and impossible to scale with client growth.</p></div>
-                    <div class="dblock"><h4>What I Did</h4><p>Ran structured discovery with client stakeholders, defined AI extraction pipeline requirements, collaborated with engineering on model selection, and designed the intelligent review workflow for analyst validation.</p></div>
-                    <div class="dblock"><h4>Impact</h4><p>Achieved 90% extraction accuracy. Reduced analyst processing time by 60%. Became a key differentiator in enterprise sales conversations and contract renewals.</p></div>
+                    <div class="dblock"><h4>What I Did</h4><p>Ran structured discovery with client stakeholders, defined the AI extraction pipeline requirements, worked with engineering on model selection, and designed the intelligent review workflow for analyst validation, built on the PDFtron API.</p></div>
+                    <div class="dblock"><h4>Impact</h4><p>Achieved 90% extraction accuracy. Cut analyst processing time by 60%, removing the manual processing bottleneck.</p></div>
                 </div></div>
             </div>
 
@@ -1167,15 +1193,15 @@
                     <div class="wbody">
                         <div class="wtags"><span class="wtag">UX Research</span><span class="wtag">Platform Redesign</span><span class="wtag">Design Systems</span><span class="wtag">User Interviews</span><span class="wtag">Retention</span></div>
                         <h3 class="wtitle">Platform-Wide UI/UX Modernization</h3>
-                        <p class="wdesc">Identified UX fragmentation as a retention risk through user research, built the business case, then led a full platform redesign that turned a pain point into a 20% CSAT uplift.</p>
+                        <p class="wdesc">Surfaced UX fragmentation as a retention risk through user research, built the business case, then led an interface overhaul that lifted CSAT 20% within a quarter.</p>
                     </div>
-                    <div class="wmetric"><div class="wmetric-val">+20%</div><div class="wmetric-lbl">CSAT improvement post-modernization</div></div>
+                    <div class="wmetric"><div class="wmetric-val">+20%</div><div class="wmetric-lbl">CSAT lift within a quarter</div></div>
                     <div class="wico">+</div>
                 </div>
                 <div class="wdetails"><div class="wdetails-inner">
                     <div class="dblock"><h4>The Problem</h4><p>Inconsistent UI patterns, scattered navigation, and visual debt were causing user frustration and increasing churn risk, surfacing in every client feedback loop.</p></div>
-                    <div class="dblock"><h4>What I Did</h4><p>Ran user interviews and usability audits. Built the business case for a full redesign. Led cross-functional work across design, engineering, and QA. Also proposed and built an in-house UI component library.</p></div>
-                    <div class="dblock"><h4>Impact</h4><p>CSAT improved by 20%. The component library saved significant development hours and enforced visual consistency across all products going forward.</p></div>
+                    <div class="dblock"><h4>What I Did</h4><p>Ran user interviews and usability audits. Built the business case for a full redesign. Led cross-functional work across design, engineering, and QA through launch.</p></div>
+                    <div class="dblock"><h4>Impact</h4><p>CSAT rose 20% within a quarter, turning a retention risk into a strength.</p></div>
                 </div></div>
             </div>
 
@@ -1186,15 +1212,15 @@
                     <div class="wbody">
                         <div class="wtags"><span class="wtag">Workflow Automation</span><span class="wtag">Compliance</span><span class="wtag">Data Governance</span><span class="wtag">Approval Workflows</span><span class="wtag">Audit Trail</span></div>
                         <h3 class="wtitle">Data Approval &amp; Review Automation System</h3>
-                        <p class="wdesc">Replaced a chaotic manual approval chain (emails, follow-ups, no accountability) with a fully automated multi-layer review workflow that ensures only verified, approved data reaches the repository.</p>
+                        <p class="wdesc">Replaced a manual approval chain of emails, follow-ups, and no accountability with an automated multi-layer review workflow. Approval time dropped from weeks to one day, and only verified data reaches the repository.</p>
                     </div>
-                    <div class="wmetric"><div class="wmetric-val">0</div><div class="wmetric-lbl">Manual follow-ups. Fully automated end-to-end</div></div>
+                    <div class="wmetric"><div class="wmetric-val">1 day</div><div class="wmetric-lbl">Approval time, down from weeks</div></div>
                     <div class="wico">+</div>
                 </div>
                 <div class="wdetails"><div class="wdetails-inner">
                     <div class="dblock"><h4>The Problem</h4><p>Before this system existed, approving data was entirely manual. Someone would collect data, then begin a chain of emails to stakeholders and upper management, each person waiting to hear from the previous, no visibility into status, continuous follow-up required, and no record of who approved what or who was responsible for any given change. The process was slow, error-prone, and completely unauditable.</p></div>
                     <div class="dblock"><h4>What I Did</h4><p>Ran discovery with operations and compliance stakeholders to map the full approval journey. Designed a configurable workflow engine where approval order and approvers can be set per data type. Built out edge case flows too: rejected data is flagged and returned with comments, and when an approver is unavailable the system automatically escalates or delegates to an alternate. Wrote all PRDs, collaborated on UI design, and drove the build through QA and launch.</p></div>
-                    <div class="dblock"><h4>Impact</h4><p>The entire approval process now runs automatically. The system notifies each approver in sequence, passes to the next on approval, and only pushes data to the repository once the full chain is complete. Every action is timestamped and logged: who approved, who rejected, who delegated, and why. Manual coordination and follow-up dropped to zero. Data in the repository is now fully traceable and audit-ready.</p></div>
+                    <div class="dblock"><h4>Impact</h4><p>The entire approval process now runs automatically. The system notifies each approver in sequence, passes to the next on approval, and only pushes data to the repository once the full chain is complete. Every action is timestamped and logged: who approved, who rejected, who delegated, and why. Manual handoffs are gone, and approval time fell from weeks to one day. Data in the repository is now fully traceable and audit-ready.</p></div>
                 </div></div>
             </div>
 
@@ -1216,35 +1242,35 @@
 
             <div class="titem">
                 <div class="tco">Kelp Global</div>
-                <div class="tcosub">AI-powered private equity intelligence platform &middot; Deal identification, pipeline management &amp; portfolio value creation &middot; Mumbai</div>
+                <div class="tcosub">AI-powered private equity intelligence platform &middot; Mumbai</div>
                 <div class="trole">
                     <div class="trole-head">
                         <span class="trole-title">Product Manager, Excellence</span>
                         <span class="tdate">May 2026 – Present</span>
                     </div>
                     <ul class="tbullets">
-                        <li>Responsible for the full product portfolio across <strong>three products</strong>, setting roadmap priorities and maintaining operational standards aligned to business goals and client outcomes.</li>
-                        <li>Brought prospect <strong>turnaround time down to under two days</strong> across all product lines, improving early-stage client satisfaction and supporting sales momentum.</li>
-                        <li>Standardised internal workflows and processes to market benchmarks, giving cross-functional teams a shared operating rhythm and faster execution.</li>
+                        <li>Own strategy and roadmap for a <strong>three-product PE portfolio</strong>; rebuilt delivery processes to market standard, achieving <strong>30% faster deliverables</strong>.</li>
+                        <li>Led the portfolio value creation revamp as product owner, shipping <strong>14+ backlog features</strong>, clearing ~70% of the pending queue and strengthening client retention.</li>
+                        <li>Cut prospect turnaround from <strong>2–3 weeks to under 2 days</strong> across all three product lines, removing the biggest friction point in the sales cycle.</li>
+                        <li>Implemented an <strong>AI chatbot</strong> across the full product portfolio, helping PE clients get faster answers and <strong>reducing support queries by 45%</strong>.</li>
                     </ul>
                 </div>
             </div>
 
             <div class="titem">
                 <div class="tco">73 Strings</div>
-                <div class="tcosub">AI-powered financial intelligence platform &middot; Series B &middot; Goldman Sachs, Blackstone, Hamilton Lane &middot; ~$10T client AUM &middot; Bangalore</div>
+                <div class="tcosub">AI financial intelligence for alternative asset managers &middot; ~$10T client AUM &middot; Series B: Goldman Sachs, Blackstone, Hamilton Lane &middot; Bangalore</div>
                 <div class="trole">
                     <div class="trole-head">
                         <span class="trole-title">Product Manager II</span>
                         <span class="tdate">Jan 2024 – May 2026</span>
                     </div>
                     <ul class="tbullets">
-                        <li>Defined product strategy and led end-to-end delivery of an <strong>enterprise-grade data collection platform</strong>, projected at ~₹10Cr ($1.2M+ ARR) and delivered <strong>₹40Cr+</strong> (~$4.8M+) this year of launch (4× the original forecast), shaping scope, build vs. buy decisions, and GTM alignment from inception.</li>
-                        <li>Identified a critical client pain point in manual data processing, led product discovery, and scoped the solution for an <strong>AI-based raw data extraction system and intelligent review assistant</strong>, achieving <strong>90% accuracy</strong> and reducing analyst processing time by <strong>60%</strong> for enterprise clients.</li>
-                        <li>Served as <strong>Product Owner across three strategic products</strong>, establishing OKR-aligned roadmap governance, making deprioritisation decisions grounded in client KPIs and business impact, and aligning engineering, design, and QA on shared north star metrics.</li>
-                        <li>Represented product in enterprise client demos and executive stakeholder reviews, translating complex AI capabilities into business value narratives that accelerated feature adoption and supported contract renewals.</li>
-                        <li>Built and scaled the PM function by hiring, mentoring, and evaluating Associate PMs, establishing structured discovery rituals, PRD templates, and a culture of evidence-driven decision making.</li>
-                        <li>Designed <strong>compliance certification workflows, privacy validation pipelines, and data governance frameworks</strong> across client portfolios, ensuring SOC-aligned regulatory readiness.</li>
+                        <li>Rebuilt a failing data collection platform (strategy, scope, build vs. buy, GTM) into <strong>₹40Cr+ (~$4.8M ARR) in one year</strong>, 4&times; the ₹10Cr forecast.</li>
+                        <li>Fixed a manual data processing bottleneck by shipping an <strong>AI system</strong> that extracts clean, structured data from unstructured documents, with an intelligent review assistant (PDFtron API); reached <strong>90% accuracy</strong> and cut analyst processing time by <strong>60%</strong>.</li>
+                        <li>Led a cross-functional team of <strong>18 across three products</strong>, owning OKR roadmaps and the client narrative that drove adoption and renewals.</li>
+                        <li>Hired and mentored <strong>4 Associate PMs</strong> and established the PM function&rsquo;s PRD templates, discovery practices, and evidence-based standards.</li>
+                        <li>Coordinated <strong>SOC 1 and SOC 2 Type II</strong> compliance, achieving successful certification and strengthening enterprise client trust.</li>
                     </ul>
                 </div>
                 <div class="trole">
@@ -1253,10 +1279,9 @@
                         <span class="tdate">May 2023 – Jan 2024</span>
                     </div>
                     <ul class="tbullets">
-                        <li>Led design and delivery of a <strong>data approval and verification system</strong> that allowed users to verify data before storage, reducing manual coordination effort significantly and improving data accuracy and auditability.</li>
-                        <li>Identified UX fragmentation as a retention risk through user research, proposed and led a <strong>full UI/UX modernization</strong> that improved <strong>CSAT by 20%</strong>.</li>
-                        <li>Established processes and best practices for PRD writing, user stories, test cases, and user acceptance testing, leading to <strong>75% fewer bugs</strong> and smoother production releases.</li>
-                        <li>Maintained quarterly roadmaps and coordinated across engineering, design, QA, and customer success to ensure timely, high-quality launches across all product features.</li>
+                        <li>Surfaced UX fragmentation as a retention risk via user research; led an interface overhaul that <strong>lifted CSAT 20%</strong> within a quarter.</li>
+                        <li>Introduced structured PRD and UAT practices, <strong>reducing production bugs by 75%</strong> and making releases predictable.</li>
+                        <li>Built a <strong>data approval and verification system</strong> that removed manual handoffs, cutting approval time from weeks to one day.</li>
                     </ul>
                 </div>
                 <div class="trole">
@@ -1265,39 +1290,8 @@
                         <span class="tdate">Jun 2021 – May 2023</span>
                     </div>
                     <ul class="tbullets">
-                        <li>Took a new product line from concept to market, contributing to strategy, user research, workflow building, PRDs, design, and GTM execution, achieving <strong>80% client adoption</strong> in the first release cycle.</li>
-                        <li>Conducted user interviews to understand client needs and delivered a campaign management tool and client communication channel that directly supported client retention.</li>
-                        <li>Identified inconsistent UI components as a development bottleneck; proposed and built an in-house UI component library that standardised reusable components, saving hours of development time and enforcing visual consistency across products.</li>
-                        <li>Supported GTM strategy and marketing content creation.</li>
-                    </ul>
-                </div>
-                <div class="trole">
-                    <div class="trole-head">
-                        <span class="trole-title">Product Management Intern</span>
-                        <span class="tdate">Jan 2021 – Jun 2021</span>
-                    </div>
-                    <ul class="tbullets">
-                        <li>Worked closely with product managers and engineers on feature development, designing wireframes and writing user stories that guided development.</li>
-                        <li>Took ownership of QA testing for designed features and managed product documentation and project timelines.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="titem">
-                <div class="tco">The Spacesmith</div>
-                <div class="tcosub">Architecture &amp; interior design firm &middot; Pune</div>
-                <div class="trole">
-                    <div class="trole-head">
-                        <span class="trole-title">Co-Founder</span>
-                        <span class="tdate">Sep 2024 – Mar 2026</span>
-                    </div>
-                    <ul class="tbullets">
-                        <li>Co-founded an architecture and interior design firm, building it into a profitable and self-sustaining business from day one.</li>
-                        <li>Designed and implemented operational systems to enable the firm to run independently.</li>
-                        <li>Built workflows and processes across project execution, client management, and delivery.</li>
-                        <li>Created project tracking systems to ensure visibility, accountability, and timely execution.</li>
-                        <li>Established team structures and ways of working for seamless coordination.</li>
-                        <li>Defined brand positioning and client experience from the ground up.</li>
+                        <li>Took a new product line from scratch to market (strategy, research, PRDs, design, GTM), reaching <strong>80% client adoption</strong> in year one.</li>
+                        <li>Proposed and built a shared <strong>UI component library</strong>, freeing an estimated 15–20% of front-end development time.</li>
                     </ul>
                 </div>
             </div>
@@ -1311,7 +1305,7 @@
                         <span class="tdate">Jun 2018 – May 2019</span>
                     </div>
                     <ul class="tbullets">
-                        <li>Led design and project management for <strong>12+ construction projects</strong>, managing client relationships, advising on cost-effective design decisions, and ensuring alignment on scope, timelines, and delivery.</li>
+                        <li>Managed design and delivery of <strong>12 construction projects</strong>, owning client relationships, scope, schedule and cost.</li>
                     </ul>
                 </div>
             </div>
@@ -1324,17 +1318,42 @@
 <section id="freelance" class="section">
     <div class="container">
         <div class="reveal">
-            <div class="eyebrow">Freelance &amp; Side Projects</div>
+            <div class="eyebrow">Independent Ventures &amp; Consulting</div>
             <h2 class="heading">Beyond <em>the day job</em></h2>
         </div>
         <div class="fl-grid">
+
+            <!-- THE SPACESMITH -->
+            <div class="fl-card reveal">
+                <div class="fl-card-top">
+                    <div>
+                        <div class="fl-company">The Spacesmith</div>
+                        <div class="fl-role">Co-Founder &nbsp;·&nbsp; Sep 2024 – Mar 2026</div>
+                    </div>
+                    <div class="fl-tags">
+                        <span class="fl-tag">Founder</span>
+                        <span class="fl-tag">Operations</span>
+                        <span class="fl-tag">Architecture &amp; Interiors</span>
+                        <span class="fl-tag">Brand</span>
+                        <span class="fl-tag">Pune</span>
+                    </div>
+                </div>
+                <div class="fl-challenge">
+                    <p>Co-founded an architecture and interior design firm and treated it like a product: build the system first, then scale. <strong>Profitable with ₹1Cr turnover in year one.</strong></p>
+                </div>
+                <ul class="fl-bullets">
+                    <li>Built the firm's <strong>operational backbone</strong>: workflows for project execution and client management, so the studio could run without me in the room.</li>
+                    <li>Implemented <strong>project tracking</strong> to improve visibility and accountability, and defined team roles and responsibilities.</li>
+                    <li>Developed the firm's <strong>brand positioning and client experience</strong> from the ground up.</li>
+                </ul>
+            </div>
 
             <!-- NORDIKA -->
             <div class="fl-card reveal">
                 <div class="fl-card-top">
                     <div>
                         <div class="fl-company">Nordika</div>
-                        <div class="fl-role">Product Consultant &nbsp;·&nbsp; May – Aug 2024</div>
+                        <div class="fl-role">Product Consultant, Freelance &nbsp;·&nbsp; Odense, Denmark &nbsp;·&nbsp; May – Aug 2024</div>
                     </div>
                     <div class="fl-tags">
                         <span class="fl-tag">Product Management</span>
@@ -1345,7 +1364,7 @@
                     </div>
                 </div>
                 <div class="fl-challenge">
-                    <p>Took a Scandinavian home interior brand from idea to a fully launched e-commerce platform for the European B2C market. <strong>Owned the product vision end to end</strong> — from understanding what European consumers actually want to making the final call on features, scope, and the visual identity that ties it all together.</p>
+                    <p>Led product development of a B2C e-commerce platform for European shoppers, taking a Scandinavian home interior brand from idea to a fully launched e-commerce platform for the European B2C market. <strong>Owned the product vision end to end</strong> — from understanding what European consumers actually want to making the final call on features, scope, and the visual identity that ties it all together.</p>
                 </div>
                 <ul class="fl-bullets">
                     <li>Led <strong>end-to-end product development</strong> of a B2C e-commerce platform for the European market, owning product vision, feature prioritisation, and stakeholder coordination from kickoff through to handover.</li>
@@ -1359,7 +1378,7 @@
                 <div class="fl-card-top">
                     <div>
                         <div class="fl-company">Dopest.io</div>
-                        <div class="fl-role">Freelance PM &amp; Consultant &nbsp;·&nbsp; Jun – Aug 2025</div>
+                        <div class="fl-role">Product Consultant, Freelance &nbsp;·&nbsp; Odense, Denmark &nbsp;·&nbsp; Jun – Aug 2025</div>
                     </div>
                     <div class="fl-tags">
                         <span class="fl-tag">Product Management</span>
@@ -1370,12 +1389,12 @@
                     </div>
                 </div>
                 <div class="fl-challenge">
-                    <p>Managed a client brief that pushed for bold, quirky energy, a direction that risks inconsistency at scale. <strong>Made the call on where to honour the vision and where to push back</strong>, keeping the design team focused and the output market-ready. Balanced stakeholder expectations with professional quality so the final product felt intentional, not just flashy.</p>
+                    <p>Scoped and launched a B2B SaaS marketing studio's market-entry website in <strong>five weeks</strong>, owning positioning and delivery. The client brief pushed for bold, quirky energy, a direction that risks inconsistency at scale. <strong>Made the call on where to honour the vision and where to push back</strong>, keeping the design team focused and the output market-ready. Balanced stakeholder expectations with professional quality so the final product felt intentional, not just flashy.</p>
                 </div>
                 <ul class="fl-bullets">
                     <li>Acted as <strong>embedded PM across the full build</strong>: ran industry and competitor research, scoped the product brief and page requirements, and authored all website copy from positioning to CTA.</li>
                     <li>Delivered a complete <strong>brand identity system</strong>: logo, typography, color system, UI themes, and brand guidelines.</li>
-                    <li>Coordinated with the design team and client to ship in <strong>5 weeks</strong>, on brief, with animations signed off and ready for handoff.</li>
+                    <li>Coordinated the design team and client to ship on brief, with animations signed off and ready for handoff.</li>
                 </ul>
                 <div class="fl-pages">
                     <span class="fl-pages-label">Designs</span>
@@ -1422,9 +1441,9 @@
             <div>
                 <div class="aeyebrow">1st Place &middot; AI Hackathon &middot; 73 Strings Internal &middot; Team of 4 &middot; Feb 2026</div>
                 <div class="atitle">Autonomous Multi-Agent Java Migration System</div>
-                <p class="adesc">Built an autonomous multi-agent system that migrates Java repositories from legacy versions to the latest in <strong>3 minutes flat</strong>. The same process previously took 2–3 weeks per repository manually. With <strong>60 repositories stuck on legacy Java</strong>, the problem represented over 2 years of developer work and serious security exposure. Built entirely with AI tools and vibe coding in <strong>3 days</strong>, with zero traditional code written by the team.</p>
+                <p class="adesc">Built an autonomous multi-agent system that migrates Java repositories from legacy versions to the latest in <strong>under 3 minutes</strong>. The same process previously took 2–3 weeks per repository manually. With <strong>60 repositories stuck on legacy Java</strong>, the problem represented <strong>2+ years of backlog</strong> and serious security exposure. Built entirely with AI tools and vibe coding in <strong>3 days</strong>, with zero traditional code written by the team.</p>
                 <div class="astats">
-                    <div><span class="astat-val">3 min</span><span class="astat-lbl">Per migration</span></div>
+                    <div><span class="astat-val">&lt;3 min</span><span class="astat-lbl">Per migration</span></div>
                     <div><span class="astat-val">2–3 wks</span><span class="astat-lbl">Previous manual effort</span></div>
                     <div><span class="astat-val">3 days</span><span class="astat-lbl">Build time</span></div>
                     <div><span class="astat-val">0</span><span class="astat-lbl">Lines of manual code</span></div>
